@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "almarai-regular";
+  src: url(./assets/fonts/Almarai-Regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "almarai-bold";
+  src: url(./assets/fonts/Almarai-Bold.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  font-family: "almarai-regular";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-family: "almarai-bold";
 }
 
-.App-link {
-  color: #61dafb;
+.orange-color {
+  color: #b13a01 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.underline {
+  width: 134px;
+  height: 3px;
+  background-color: #b13a01;
+}
+
+button:hover {
+  color: #fff !important;
+  background-color: #b13a01 !important;
+  border: 1px solid transparent !important;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
 }
